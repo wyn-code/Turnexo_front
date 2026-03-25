@@ -10,19 +10,20 @@ import VIPPlan from "@/components/landing/VIPPlan";
 import Footer from "@/components/landing/Footer";
 
 const Index = () => {
-  return 
-  <div className="min-h-screen bg-background">
-    <Navbar />
-    <Hero />
-    <BenefitsClients />
-    <BenefitsBusiness />
-    <HowItWorks />
-    <RecommendedBusinesses />
-    <Categories />
-    <BusinessCTA />
-    <VIPPlan />
-    <Footer />
-  </div>
+  return (
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <Hero />
+      <BenefitsClients />
+      <BenefitsBusiness />
+      <HowItWorks />
+      <RecommendedBusinesses />
+      <Categories />
+      <BusinessCTA />
+      <VIPPlan />
+      <Footer />
+    </div>
+  );
 };
 
 export default Index;

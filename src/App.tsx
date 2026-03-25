@@ -12,13 +12,6 @@ import Dashboard from "./pages/Dashboard.tsx";
 import NotFound from "./pages/NotFound.tsx";
 const queryClient = new QueryClient();
 
-const App = () => {
-  return <div>App funcionando 🚀</div>;
-};
-
-export default App;
-
-/*
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -32,7 +25,7 @@ const App = () => (
           <Route path="/reservar/:slug" element={<Reservar />} />
           <Route path="/registrar-negocio" element={<RegistrarNegocio />} />
           <Route path="/dashboard/*" element={<Dashboard />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE }
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
@@ -40,4 +33,4 @@ const App = () => (
   </QueryClientProvider>
 );
 
-export default App;*/
+export default App;
