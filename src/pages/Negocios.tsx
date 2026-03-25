@@ -3,7 +3,7 @@ import Navbar from "@/components/landing/Navbar";
 import Footer from "@/components/landing/Footer";
 import SearchBar from "@/components/marketplace/SearchBar";
 import CategoryFilter from "@/components/marketplace/CategoryFilter";
-import BusinessGrid from "@/components/marketplace/BusinessGrid";
+import BusinessGrid from "@/components/marketplace/BusinessesGrid";
 import { recommendedBusinesses, categories, cities } from "@/data/mockData";
 import {
   Select,

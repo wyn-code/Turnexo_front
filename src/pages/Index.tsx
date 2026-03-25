@@ -9,7 +9,8 @@ import BusinessCTA from "@/components/landing/BusinessCTA";
 import VIPPlan from "@/components/landing/VIPPlan";
 import Footer from "@/components/landing/Footer";
 
-const Index = () => (
+const Index = () => {
+  return 
   <div className="min-h-screen bg-background">
     <Navbar />
     <Hero />
@@ -22,6 +23,6 @@ const Index = () => (
     <VIPPlan />
     <Footer />
   </div>
-);
+};
 
 export default Index;
