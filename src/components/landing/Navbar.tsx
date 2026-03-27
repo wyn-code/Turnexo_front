@@ -18,7 +18,6 @@ const Navbar = () => {
           <Button variant="ghost" size="sm" asChild>
             <Link to="/negocios">Explorar negocios</Link>
           </Button>
-          <Button variant="ghost" size="sm">Iniciar sesión</Button>
           <Button size="sm" asChild>
             <Link to="/registrar-negocio">Registrar negocio</Link>
           </Button>

@@ -9,21 +9,19 @@ import BusinessCTA from "@/components/landing/BusinessCTA";
 import VIPPlan from "@/components/landing/VIPPlan";
 import Footer from "@/components/landing/Footer";
 
-const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
-      <Navbar />
-      <Hero />
-      <BenefitsClients />
-      <BenefitsBusiness />
-      <HowItWorks />
-      <RecommendedBusinesses />
-      <Categories />
-      <BusinessCTA />
-      <VIPPlan />
-      <Footer />
-    </div>
-  );
-};
+const Index = () => (
+  <div className="min-h-screen bg-background">
+    <Navbar />
+    <Hero />
+    <Categories />
+    <RecommendedBusinesses />
+    <BenefitsClients />
+    <BenefitsBusiness />
+    <HowItWorks />
+    <BusinessCTA />
+    <VIPPlan />
+    <Footer />
+  </div>
+);
 
 export default Index;
