@@ -10,7 +10,7 @@ interface BusinessCardProps {
 }
 
 const BusinessCard = ({ business }: BusinessCardProps) => (
-  <Card className="flex flex-col overflow-hidden border-border bg-card transition-shadow hover:shadow-md">
+  <Card className="flex flex-col overflow-hidden border-border bg-card transition-shadow duration-300 shadow-[0_8px_20px_rgba(0,0,0,0.12)] hover:shadow-[0_16px_30px_rgba(0,0,0,0.18)]">
     <div className="h-40 bg-muted" />
     <CardContent className="flex flex-1 flex-col gap-3 p-5">
       <div className="flex items-start justify-between gap-2">
